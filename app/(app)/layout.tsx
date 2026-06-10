@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import "./globals.css"; // Seu arquivo CSS onde a Poppins está importada
+import "../globals.css";
 
 export const metadata: Metadata = {
   title: "EasyProject",
@@ -20,3 +20,4 @@ export default function RootLayout({
     </html>
   );
 }
+
